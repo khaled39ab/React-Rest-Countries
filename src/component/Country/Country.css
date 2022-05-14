@@ -1,0 +1,7 @@
+.country{
+    color: crimson;
+    background-color: burlywood;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+    padding: 10px;
+}
