@@ -14,7 +14,9 @@ const Countries = () => {
             <h1 style={{color:'blueviolet'}}>Hello World!!! Explore with us...</h1>
             <div className='countries'>
             {
-                countries.map(country => <Country name={country.name.common} area={country.area} population={country.population} flags={country.flags.svg}></Country>)
+                // countries.map(country => <Country name={country.name.common} area={country.area} population={country.population} flags={country.flags.svg}></Country>)
+                //pass country for all infos are in one
+                countries.map(country => <Country country={country}></Country>)
             }
             </div>
         </div>
