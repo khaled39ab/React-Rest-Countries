@@ -16,7 +16,7 @@ const Countries = () => {
             {
                 // countries.map(country => <Country name={country.name.common} area={country.area} population={country.population} flags={country.flags.svg}></Country>)
                 //pass country for all infos are in one
-                countries.map(country => <Country country={country}></Country>)
+                countries.map(country => <Country country={country} key={country.cca3}></Country>)
             }
             </div>
         </div>

@@ -2,10 +2,10 @@
     color: crimson;
     background-color: burlywood;
     border: 2px solid cadetblue;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
 }
 .country img{
-    height: 100px;
+    /* height: 100px; */
     width: 150px;
 }

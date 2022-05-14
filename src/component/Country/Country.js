@@ -3,6 +3,7 @@ import './Country.css'
 
 const Country = (props) => {
     const {name, area, population, flags} = props.country;
+    // console.log(props.country);
     return (
         <div className='country'>
             {/* <h3>Name: {props.name}</h3>
